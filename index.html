@@ -11,7 +11,7 @@
         .hero-bg { background: #0f172a; }
         .text-black-bold { color: #000000 !important; font-weight: 800; }
         .btn-orange { background-color: #c2410c; }
-        .logo-text { font-family: sans-serif; font-weight: 900; line-height: 1; }
+        .logo-text { font-family: sans-serif; font-weight: 900; line-height: 1.1; }
     </style>
 </head>
 <body class="bg-white text-gray-900 font-sans">
@@ -19,61 +19,59 @@
     <nav class="bg-white border-b-4 border-blue-900 sticky top-0 z-50 shadow-md">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <a href="#" class="flex flex-col">
-                <span class="logo-text text-blue-900 text-xl uppercase tracking-tighter">КЛИЙН-ХОУМ</span>
-                <span class="text-orange-700 font-black text-[10px] tracking-widest border-t border-orange-700 uppercase">ЕООД • СТРОИТЕЛСТВО</span>
+                <span class="logo-text text-blue-900 text-xl md:text-2xl uppercase tracking-tighter">КЛИЙН-ХОУМ</span>
+                <span class="text-orange-700 font-black text-[10px] md:text-xs tracking-widest border-t border-orange-700 uppercase">ЕООД • СТРОИТЕЛСТВО</span>
             </a>
-            <a href="tel:0884468329" class="font-black text-blue-900 border-2 border-blue-900 px-3 py-1 rounded-lg text-sm">0884 468 329</a>
+            <a href="tel:0884468329" class="font-black text-blue-900 border-2 border-blue-900 px-4 py-2 rounded-xl text-sm hover:bg-blue-900 hover:text-white transition">0884 468 329</a>
         </div>
     </nav>
 
     <header class="hero-bg text-white py-12 px-4 text-center">
-        <h1 class="text-3xl md:text-5xl font-black mb-4 uppercase">РЕМОНТИ И ПОЧИСТВАНЕ</h1>
-        <p class="text-blue-100 font-bold mb-8">София и Варна – Качество без компромис</p>
-        <a href="#offer" class="btn-orange text-white px-8 py-4 rounded-xl font-black uppercase shadow-lg">Цена по снимка</a>
+        <h1 class="text-3xl md:text-5xl font-black mb-4 uppercase tracking-tight">РЕМОНТИ И ПОЧИСТВАНЕ</h1>
+        <p class="text-blue-100 font-bold mb-8 text-lg">София и Варна – Качество без компромис</p>
+        <a href="#offer" class="btn-orange text-white px-10 py-4 rounded-xl font-black uppercase shadow-lg text-lg">ЦЕНА ПО СНИМКА</a>
     </header>
 
     <section class="py-12 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-2xl font-black text-center text-blue-900 mb-8 uppercase">РЕЗУЛТАТИ: ПОЧИСТВАНЕ НА МАЗЕТА</h2>
+            <h2 class="text-2xl md:text-3xl font-black text-center text-blue-900 mb-10 uppercase">РЕЗУЛТАТИ: ПОЧИСТВАНЕ НА МАЗЕТА</h2>
             
-            <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-                <div class="relative rounded-2xl overflow-hidden shadow-lg border-4 border-gray-200">
-                    <div class="absolute top-2 left-2 bg-red-600 text-white px-3 py-1 font-black text-xs uppercase rounded">Преди</div>
-                    <img src="https://via.placeholder.com/400x300?text=МАЗЕ:+ПРЕДИ" alt="Почистване на мазета преди" class="w-full h-64 object-cover">
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-gray-100">
+                    <div class="absolute top-4 left-4 bg-red-600 text-white px-4 py-1 font-black text-sm uppercase rounded-lg z-10">Преди</div>
+                    <img src="1000021293.jpg" alt="Почистване на мазета преди" class="w-full h-80 object-cover hover:scale-105 transition duration-500">
                 </div>
 
-                <div class="relative rounded-2xl overflow-hidden shadow-lg border-4 border-green-500">
-                    <div class="absolute top-2 left-2 bg-green-600 text-white px-3 py-1 font-black text-xs uppercase rounded">След</div>
-                    <img src="https://via.placeholder.com/400x300?text=МАЗЕ:+СЛЕД" alt="Почистване на мазета след" class="w-full h-64 object-cover">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-green-500">
+                    <div class="absolute top-4 left-4 bg-green-600 text-white px-4 py-1 font-black text-sm uppercase rounded-lg z-10">След</div>
+                    <img src="1000021294.jpg" alt="Почистване на мазета след" class="w-full h-80 object-cover hover:scale-105 transition duration-500">
                 </div>
             </div>
             
-            <p class="text-center mt-6 text-black-bold italic text-sm">Освобождаваме мястото ви от ненужни вещи и боклуци бързо и професионално!</p>
-        </div>
-    </section>
-
-    <section class="py-12 bg-gray-50 border-t">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-xl font-black text-blue-900 mb-6 uppercase tracking-widest">КЛИЙН-ХОУМ ЕООД</h2>
-            <p class="text-black-bold leading-relaxed max-w-2xl mx-auto">
-                От грубия строеж до финалния блясък. Мобилни екипи в София и Варна.
+            <p class="text-center mt-8 text-black-bold italic text-lg max-w-2xl mx-auto">
+                Превръщаме затрупаните мазета в чисти и използваеми пространства! Бързо изнасяне и професионално почистване.
             </p>
         </div>
     </section>
 
     <section id="offer" class="py-16 bg-blue-900 px-4">
-        <div class="max-w-md mx-auto bg-white rounded-3xl p-6 shadow-2xl">
-            <h2 class="text-xl font-black text-center mb-6 uppercase">Вземи оферта до 2 часа</h2>
+        <div class="max-w-md mx-auto bg-white rounded-3xl p-8 shadow-2xl border-t-8 border-orange-700">
+            <h2 class="text-2xl font-black text-center text-gray-900 mb-6 uppercase">ВЗЕМИ ОФЕРТА</h2>
             <form action="https://formspree.io/f/YOUR_ID" method="POST" enctype="multipart/form-data" class="space-y-4">
-                <input type="file" name="photos" multiple class="block w-full text-xs border-2 border-dashed p-3 rounded-lg">
-                <input type="tel" name="phone" placeholder="Вашият телефон" required class="w-full p-3 border rounded-xl font-bold">
-                <button type="submit" class="w-full btn-orange text-white font-black py-4 rounded-xl uppercase shadow-md">Изпрати за цена</button>
+                <div>
+                    <label class="text-xs font-black text-gray-500 uppercase ml-1">Прикачи снимки за цена</label>
+                    <input type="file" name="photos" multiple class="block w-full text-sm border-2 border-dashed p-4 rounded-xl mt-1">
+                </div>
+                <input type="tel" name="phone" placeholder="Вашият телефон" required class="w-full p-4 border-2 rounded-xl font-bold">
+                <button type="submit" class="w-full btn-orange text-white font-black py-5 rounded-xl uppercase text-xl shadow-xl hover:bg-orange-800 transition">ИЗПРАТИ СЕГА</button>
             </form>
         </div>
     </section>
 
-    <footer class="py-8 text-center bg-white border-t">
-        <p class="text-xs text-gray-400">© 2026 КЛИЙН-ХОУМ ЕООД • София • Варна</p>
+    <footer class="py-10 text-center bg-gray-50 border-t">
+        <p class="font-black text-blue-900 uppercase">КЛИЙН-ХОУМ ЕООД</p>
+        <p class="text-orange-700 font-black text-xs mt-1">СОФИЯ • ВАРНА</p>
+        <p class="text-[10px] text-gray-400 mt-6 italic">© 2026 Всички права запазени.</p>
     </footer>
 
 </body>
