@@ -3,98 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>КЛИЙН-ХОУМ ЕООД | Ремонти и Почистване</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        html { scroll-behavior: smooth; }
-        .hero-bg { background-color: #0f172a; } /* Тъмен фон като на снимката */
-        .btn-orange { background-color: #c2410c; } /* Оранжево за бутона Позвъни сега */
-        .logo-text { font-family: sans-serif; font-weight: 900; line-height: 1.1; }
-    </style>
+    <title>КЛИЙН-ХОУМ ЕООД - Ремонти и Почистване</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-white text-gray-900 font-sans">
+<body>
 
-    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
-        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
-            <div class="flex flex-col">
-                <span class="logo-text text-blue-900 text-xl uppercase tracking-tighter">КЛИЙН-ХОУМ</span>
-                <span class="text-orange-700 font-bold text-[10px] uppercase tracking-widest border-t border-orange-700">ЕООД • СТРОИТЕЛСТВО</span>
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo-area">
+                <img src="logo.png" alt="КЛИЙН-ХОУМ ЕООД Лого" class="main-logo">
+                <span class="company-name">КЛИЙН-ХОУМ ЕООД</span>
             </div>
-            <a href="tel:0884468329" class="border-2 border-blue-900 text-blue-900 font-bold px-4 py-2 rounded-xl text-sm hover:bg-blue-900 hover:text-white transition">
-                0884 468 329
-            </a>
-        </div>
-    </nav>
-
-    <header class="hero-bg text-white py-16 px-6 text-center">
-        <h1 class="text-4xl md:text-5xl font-black mb-4 uppercase tracking-tight leading-tight">
-            РЕМОНТИ И ПОЧИСТВАНЕ
-        </h1>
-        <p class="text-lg md:text-xl mb-10 text-gray-300 font-medium">
-            Професионални услуги в София и Варна
-        </p>
-        
-        <div class="flex flex-col gap-4 max-w-sm mx-auto">
-            <a href="#offer" class="bg-white text-blue-900 py-4 rounded-xl font-black uppercase text-lg shadow-md hover:bg-gray-100 transition">
-                ВЗЕМИ ЦЕНА ПО СНИМКА
-            </a>
-            <a href="tel:0884468329" class="btn-orange text-white py-4 rounded-xl font-black uppercase text-lg shadow-md hover:opacity-90 transition">
-                ПОЗВЪНИ СЕГА
-            </a>
+            <div class="contact-info">
+                <a href="tel:0884468329" class="phone-link">0884 468 329</a>
+            </div>
         </div>
     </header>
 
-    <section class="py-16 px-6 bg-white text-center">
-        <h2 class="text-3xl font-black text-blue-900 mb-6 uppercase border-b-4 border-orange-600 inline-block">
-            КЛИЙН-ХОУМ ЕООД
-        </h2>
-        <p class="text-lg font-bold leading-relaxed max-w-2xl mx-auto">
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>РЕМОНТИ И ПОЧИСТВАНЕ</h1>
+            <p class="subtitle">Професионални услуги в София и Варна</p>
+            
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-white">ВЗЕМИ ЦЕНА ПО СНИМКА</a>
+                <a href="tel:0884468329" class="btn btn-orange">ПОЗВЪНИ СЕГА</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <h2 class="section-title">КЛИЙН-ХОУМ ЕООД</h2>
+        <div class="underline"></div>
+        <p class="description">
             Ние предлагаме комплексно решение – от грубия строеж до финалния блясък. 
-            Мобилни екипи в гр. София и гр. Варна.
+            Мобилни екипи в гр. София и гр. Варна с гарантирано качество и коректност.
         </p>
-        
-        <div class="grid md:grid-cols-2 gap-4 mt-12 max-w-4xl mx-auto">
-            <div class="bg-gray-50 p-6 rounded-2xl border-l-4 border-blue-900 text-left shadow-sm">
-                <h3 class="text-blue-900 font-black uppercase mb-2">🔨 СТРОИТЕЛНИ РЕМОНТИ</h3>
-                <p class="text-gray-600 font-bold text-sm">Шпакловка, боядисване, гипсокартон и плочки.</p>
-            </div>
-            <div class="bg-gray-50 p-6 rounded-2xl border-l-4 border-orange-600 text-left shadow-sm">
-                <h3 class="text-orange-700 font-black uppercase mb-2">✨ ПРОФЕСИОНАЛНО ПОЧИСТВАНЕ</h3>
-                <p class="text-gray-600 font-bold text-sm">След ремонт, основни почиствания и мазета.</p>
-            </div>
-        </div>
     </section>
 
-    <section id="offer" class="py-16 bg-blue-900 px-6">
-        <div class="max-w-md mx-auto bg-white rounded-3xl p-8 shadow-xl">
-            <h2 class="text-xl font-black text-center mb-8 uppercase text-gray-800 tracking-tight">
-                Изпрати за безплатна цена
-            </h2>
-            <form action="#" class="space-y-6">
-                <div class="border-2 border-dashed border-gray-200 rounded-2xl p-6 text-center">
-                    <input type="file" class="hidden" id="fileInput">
-                    <label for="fileInput" class="cursor-pointer text-blue-800 font-black uppercase text-sm">
-                        Избор на файлове
-                    </label>
-                </div>
-                <div>
-                    <label class="block text-[10px] font-black text-gray-400 uppercase mb-1 ml-1">ВАШИЯТ ТЕЛЕФОН</label>
-                    <input type="tel" placeholder="0888 XXX XXX" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl font-bold focus:outline-none focus:ring-2 focus:ring-orange-600">
-                </div>
-                <button type="submit" class="w-full btn-orange text-white py-5 rounded-2xl font-black uppercase text-lg shadow-lg">
-                    ИЗПРАТИ ЗА БЕЗПЛАТНА ЦЕНА
-                </button>
-            </form>
-        </div>
-    </section>
-
-    <footer class="py-12 bg-slate-900 text-center text-white">
-        <p class="font-black uppercase tracking-widest text-sm mb-2">КЛИЙН-ХОУМ ЕООД</p>
-        <p class="text-orange-500 font-bold text-xs uppercase mb-8">СОФИЯ • ВАРНА</p>
-        <p class="text-[10px] text-gray-500 italic">
-            © 2026 Всички права запазени. Дизайн и разработка: Clean Home Tech.
-        </p>
-    </footer>
+    <div class="floating-contact">
+        <a href="https://wa.me/359884468329" class="float-btn whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="viber://chat?number=%2B359884468329" class="float-btn viber">
+            <i class="fab fa-viber"></i>
+        </a>
+    </div>
 
 </body>
 </html>
