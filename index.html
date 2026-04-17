@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>КЛИЙН-ХОУМ ЕООД | Ремонти и Почистване</title>
-    <meta name="description" content="Експертни строителни ремонти и професионално почистване в София и Варна. Цени в евро.">
+    <title>КЛИЙН-ХОУМ ЕООД | Ремонти и Почистване в Евро</title>
+    <meta name="description" content="Професионални ремонти и почистване София и Варна. Цени в евро.">
     
     <link rel="preconnect" href="https://cdn.tailwindcss.com">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,7 +14,7 @@
         .hero-bg { background: #0f172a; }
         .logo-text { font-family: sans-serif; font-weight: 900; line-height: 1.1; }
         .btn-orange { background-color: #c2410c; }
-        .text-black-bold { color: #000000 !important; font-weight: 800; }
+        .price-tag { background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; padding: 2px 8px; rounded: 6px; font-weight: 800; }
     </style>
 </head>
 <body class="bg-white text-gray-900 font-sans">
@@ -36,56 +36,26 @@
             <h1 class="text-4xl md:text-6xl font-black mb-6 uppercase tracking-tight">РЕМОНТИ И ПОЧИСТВАНЕ</h1>
             <p class="text-xl md:text-2xl mb-10 text-blue-100 font-bold italic">Професионални услуги в София и Варна</p>
             <div class="flex flex-col md:flex-row justify-center gap-6">
-                <a href="#offer" class="bg-white text-blue-900 px-10 py-4 rounded-xl font-black text-lg shadow-xl uppercase hover:bg-blue-50 transition">ВЗЕМИ ЦЕНА ПО СНИМКА</a>
+                <a href="#offer" class="bg-white text-blue-900 px-10 py-4 rounded-xl font-black text-lg shadow-xl uppercase hover:bg-blue-50 transition">ЦЕНА ПО СНИМКА</a>
                 <a href="tel:0884468329" class="btn-orange text-white px-10 py-4 rounded-xl font-black text-lg shadow-xl uppercase border-b-4 border-orange-900">ПОЗВЪНИ СЕГА</a>
             </div>
         </div>
     </header>
 
     <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl font-black text-blue-900 mb-8 uppercase underline decoration-orange-600">КЛИЙН-ХОУМ ЕООД</h2>
-            <div class="max-w-4xl mx-auto space-y-6">
-                <p class="text-black-bold text-lg md:text-xl leading-relaxed">
-                    Ние предлагаме комплексно решение – от грубия строеж до финалния блясък. Мобилни екипи в гр. София и гр. Варна. Всички цени са в **евро**.
-                </p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-6">
-                    <div class="bg-white p-6 rounded-2xl shadow-sm border-l-8 border-blue-900 text-left">
-                        <h3 class="font-black text-blue-900 uppercase mb-2">🔨 Строителни ремонти</h3>
-                        <p class="text-sm font-bold text-gray-600 italic">Шпакловка, боядисване, гипсокартон и плочки. Цени след оглед или по снимка в евро.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-2xl shadow-sm border-l-8 border-orange-600 text-left">
-                        <h3 class="font-black text-orange-700 uppercase mb-2">✨ Професионално почистване</h3>
-                        <p class="text-sm font-bold text-gray-600 italic">Почистване след ремонт и мазета. Бързи оферти в евро за Вашия обект.</p>
-                    </div>
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-black text-center text-blue-900 mb-12 uppercase underline decoration-orange-600">ОРИЕНТИРОВЪЧНИ ЦЕНИ В ЕВРО</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white p-6 rounded-3xl shadow-lg border-t-4 border-blue-900">
+                    <h3 class="font-black text-xl text-blue-900 mb-4 uppercase">🔨 СТРОИТЕЛНИ РЕМОНТИ</h3>
+                    <ul class="space-y-3 font-bold text-gray-700">
+                        <li class="flex justify-between border-b pb-2"><span>Шпакловка</span> <span class="text-orange-700">от 6.50 €/м²</span></li>
+                        <li class="flex justify-between border-b pb-2"><span>Боядисване</span> <span class="text-orange-700">от 3.50 €/м²</span></li>
+                        <li class="flex justify-between border-b pb-2"><span>Гипсокартон</span> <span class="text-orange-700">от 12.00 €/м²</span></li>
+                        <li class="flex justify-between border-b pb-2"><span>Лепене на плочки</span> <span class="text-orange-700">от 22.00 €/м²</span></li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="offer" class="py-16 bg-blue-900 px-4">
-        <div class="max-w-md mx-auto bg-white rounded-3xl p-8 shadow-2xl border-t-8 border-orange-700">
-            <div class="text-center mb-8">
-                <h2 class="text-2xl font-black uppercase text-gray-900 tracking-tight">Цена до 2 часа</h2>
-                <p class="text-gray-500 font-bold text-sm italic">Изпратете снимки за оферта в евро</p>
-            </div>
-            <form action="https://formspree.io/f/YOUR_ID" method="POST" enctype="multipart/form-data" class="space-y-4">
-                <div class="bg-gray-50 p-4 rounded-xl border-2 border-dashed border-gray-300 text-center">
-                    <label class="cursor-pointer">
-                        <span class="text-blue-900 font-black text-sm uppercase">📸 Прикачи снимки</span>
-                        <input type="file" name="photos" multiple class="hidden">
-                    </label>
-                </div>
-                <input type="tel" name="phone" placeholder="Вашият телефон" required class="w-full p-4 border-2 border-gray-100 rounded-xl font-bold focus:border-blue-900 outline-none">
-                <button type="submit" class="w-full btn-orange text-white font-black py-5 rounded-xl uppercase text-xl shadow-xl hover:opacity-90 transition">ИЗПРАТИ ЗА ЦЕНА В ЕВРО</button>
-            </form>
-        </div>
-    </section>
-
-    <footer class="py-12 bg-white text-center border-t">
-        <p class="logo-text text-blue-900 text-lg uppercase tracking-tighter">КЛИЙН-ХОУМ ЕООД</p>
-        <p class="text-orange-700 font-black text-xs mt-1 uppercase tracking-widest">София • Варна</p>
-        <p class="text-[10px] text-gray-400 mt-8 italic">© 2026 Всички цени са в евро. Дизайн: Clean Home Tech.</p>
-    </footer>
-
-    
+                <div class="bg-white p-6 rounded-3xl shadow-lg border-t-4 border-orange-600">
+                    <h3 class="font-black text-xl text-orange-700 mb-4 uppercase">✨
