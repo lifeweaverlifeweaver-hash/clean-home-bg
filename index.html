@@ -1,19 +1,129 @@
-<nav class="bg-white border-b-4 border-blue-900 sticky top-0 z-50 shadow-sm">
-    <div class="container mx-auto px-4 py-2 flex justify-between items-center">
-        <a href="#" class="flex items-center">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMTAwIj4KICA8cGF0aCBkPSJNMjAgODAgTDUwIDUwIEw4MCAzMCBMOTAgNDAgTDEyMCAxMCBMMTUwIDMwIEwxODAgMTAgQzIwMCAzMCAyMjAgNTAgMjQwIDMwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwZjE3MmEiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0xNTAgMzAgTDE4MCA1MCBMMjEwIDMwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwZjE3MmEiIHN0cm9rZS13aWR0aD0iNCIvPgogIDxwYXRoIGQ9Ik0yNDAgMzAgQzI2MCAxMCAyODAgMjAgMzAwIDQwIEMzMjAgNjAgMzAwIDgwIDI4MCA3MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjJkM2VlIiBzdHJva2Utd2lkdGg9IjQiLz4KICA8dGV4dCB4PSIxOTAiIHk9IjY1IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjI0IiBmaWxsPSIjMGYxNzJhIj5LTElJTi1IT1VNIEVPT0Q8L3RleHQ+Cjwvc3ZnPg==" 
-                 alt="КЛИЙН-ХОУМ ЕООД Лого" class="h-10 md:h-14 w-auto">
-        </a>
-        
-        <div class="hidden md:flex space-x-8 items-center">
-            <a href="#services" class="text-black-bold hover:text-blue-700 uppercase text-sm">Услуги</a>
-            <a href="#prices" class="text-black-bold hover:text-blue-700 uppercase text-sm">Цени</a>
-            <a href="#offer" class="bg-orange-700 text-white px-5 py-2 rounded-lg font-black uppercase text-sm shadow-md">Оферта по снимка</a>
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КЛИЙН-ХОУМ ЕООД | Ремонти и Почистване София и Варна</title>
+    <meta name="description" content="Експертни строителни ремонти и професионално почистване в София и Варна. Вземете оферта по снимка до 2 часа. КЛИЙН-ХОУМ ЕООД - качество без компромиси.">
+    
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg { background: #0f172a; }
+        .text-black-bold { color: #000000 !important; font-weight: 700; }
+        .btn-orange { background-color: #c2410c; }
+        /* Поддръжка на висока достъпност и SEO */
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+    <nav class="bg-white border-b-4 border-blue-900 sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <a href="#" class="flex items-center" aria-label="Начало">
+                <svg width="200" height="50" viewBox="0 0 250 60" xmlns="http://www.w3.org/2000/svg" class="h-10 md:h-12 w-auto">
+                    <path d="M10 50 L30 20 L50 40 L60 30 L80 10 L100 30 L120 10" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M110 30 Q130 50 150 30 T190 30" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+                    <circle cx="195" cy="25" r="2" fill="#22d3ee"/>
+                    <circle cx="205" cy="35" r="2" fill="#22d3ee"/>
+                    <text x="10" y="55" font-family="Arial, sans-serif" font-weight="900" font-size="20" fill="#0f172a">КЛИЙН-ХОУМ ЕООД</text>
+                </svg>
+            </a>
+            
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#services" class="text-black-bold hover:text-blue-700 uppercase text-sm">Услуги</a>
+                <a href="#prices" class="text-black-bold hover:text-blue-700 uppercase text-sm">Цени</a>
+                <a href="#offer" class="btn-orange text-white px-5 py-2 rounded-lg font-black uppercase text-sm shadow-md hover:bg-orange-800 transition">Оферта по снимка</a>
+            </div>
+            
+            <a href="tel:0884468329" class="md:hidden font-black text-blue-900 border-2 border-blue-900 px-3 py-1 rounded-lg">0884 468 329</a>
         </div>
-        
-        <a href="tel:0884468329" class="md:hidden font-black text-blue-900 border-2 border-blue-900 px-3 py-1 rounded-lg">
-            0884 468 329
+    </nav>
+
+    <header class="hero-bg text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-black mb-4 uppercase tracking-tighter">РЕМОНТИ И ПОЧИСТВАНЕ</h1>
+            <p class="text-xl md:text-2xl mb-10 text-blue-100 font-bold italic">Професионални услуги в София и Варна</p>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="#offer" class="bg-white text-blue-900 px-10 py-4 rounded-xl font-black text-lg shadow-xl uppercase hover:bg-blue-50 transition">ВЗЕМИ ЦЕНА ПО СНИМКА</a>
+                <a href="tel:0884468329" class="btn-orange text-white px-10 py-4 rounded-xl font-black text-lg shadow-xl uppercase border-b-4 border-orange-900">ПОЗВЪНИ СЕГА</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-black text-blue-900 mb-8 uppercase underline decoration-orange-600">КЛИЙН-ХОУМ ЕООД</h2>
+            <p class="text-black-bold text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
+                Ние предлагаме комплексно решение – от грубия строеж до финалния блясък. Мобилни екипи в София и Варна с гарантирано качество.
+            </p>
+        </div>
+    </section>
+
+    <section id="prices" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-black text-center mb-12 uppercase text-blue-900">Ценоразпис (€)</h2>
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="p-8 rounded-3xl border-2 border-orange-600 shadow-xl bg-white">
+                    <h3 class="text-2xl font-black mb-6 text-orange-700 uppercase">🏗️ Ремонти</h3>
+                    <ul class="space-y-4 font-bold text-black-bold text-lg">
+                        <li class="flex justify-between border-b pb-2"><span>Шпакловка</span><span>€12.50/м²</span></li>
+                        <li class="flex justify-between border-b pb-2"><span>Боядисване</span><span>€8.50/м²</span></li>
+                        <li class="flex justify-between border-b pb-2"><span>Плочки</span><span>€35.00/м²</span></li>
+                        <li class="flex justify-between"><span>Гипсокартон</span><span>€25.00/м²</span></li>
+                    </ul>
+                </div>
+                <div class="p-8 rounded-3xl border-2 border-blue-900 shadow-xl bg-white">
+                    <h3 class="text-2xl font-black mb-6 text-blue-900 uppercase">🧹 Почистване</h3>
+                    <ul class="space-y-4 font-bold text-black-bold text-lg">
+                        <li class="flex justify-between border-b pb-2"><span>След ремонт</span><span>€6.00/м²</span></li>
+                        <li class="flex justify-between border-b pb-2"><span>Основно</span><span>€4.50/м²</span></li>
+                        <li class="flex justify-between border-b pb-2"><span>Прозорци</span><span>€2.50/м²</span></li>
+                        <li class="flex justify-between"><span>Мека мебел</span><span>€15.00/бр</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="offer" class="py-20 bg-blue-900">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <div class="text-center mb-10 text-white">
+                <h2 class="text-3xl md:text-4xl font-black uppercase">Оферта до 2 часа</h2>
+                <p class="text-blue-200 mt-2 font-bold italic">Изпратете снимки за оценка</p>
+            </div>
+            <form action="https://formspree.io/f/YOUR_ID" method="POST" enctype="multipart/form-data" class="bg-white p-8 rounded-3xl shadow-2xl space-y-5 border-t-8 border-orange-600">
+                <input type="text" name="city_service" placeholder="Град и Вид Услуга" required class="w-full p-4 border-2 border-gray-200 rounded-xl font-bold focus:border-blue-900 outline-none">
+                <textarea name="details" rows="3" placeholder="Описание на обекта" class="w-full p-4 border-2 border-gray-200 rounded-xl font-bold focus:border-blue-900 outline-none"></textarea>
+                <div class="bg-gray-50 p-5 rounded-xl border-2 border-dashed border-gray-300 text-center">
+                    <label for="f" class="cursor-pointer font-black text-blue-900 uppercase text-sm">📸 Избор на файлове</label>
+                    <input type="file" id="f" name="photos" multiple class="block w-full text-sm text-gray-500 mt-2">
+                </div>
+                <input type="tel" name="phone" placeholder="Вашият телефон (0888...)" required class="w-full p-4 border-2 border-gray-200 rounded-xl font-bold">
+                <button type="submit" class="w-full btn-orange text-white font-black py-5 rounded-xl uppercase text-xl shadow-lg hover:bg-orange-800 transition transform hover:-translate-y-1">ИЗПРАТИ ЗА БЕЗПЛАТНА ЦЕНА</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center bg-gray-100 text-gray-900">
+        <p class="font-black uppercase tracking-widest text-xl mb-4">КЛИЙН-ХОУМ ЕООД</p>
+        <div class="flex justify-center gap-4 text-orange-700 font-black mb-8">
+            <span>СОФИЯ</span>
+            <span>•</span>
+            <span>ВАРНА</span>
+        </div>
+        <p class="text-xs text-gray-500 italic">© 2026 Всички права запазени. Дизайн: Clean Home Tech.</p>
+    </footer>
+
+    <div class="fixed bottom-6 right-6 flex flex-col space-y-4 z-50">
+        <a href="https://wa.me/359884468329" target="_blank" rel="noopener" class="bg-green-600 text-white p-4 rounded-full shadow-2xl border-2 border-white hover:scale-110 transition-transform">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.445 0 .081 5.391.079 11.99c0 2.112.552 4.173 1.597 6.011L0 24l6.193-1.623c1.777.97 3.784 1.484 5.83 1.484h.005c6.598 0 11.963-5.392 11.966-11.991a11.907 11.907 0 00-3.486-8.451z"/></svg>
+        </a>
+        <a href="viber://chat?number=+359884468329" class="bg-purple-700 text-white p-4 rounded-full shadow-2xl border-2 border-white hover:scale-110 transition-transform">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M19.742 16.378c-.443-.172-2.548-1.254-2.942-1.415-.395-.158-.683-.238-1.012.24-.329.475-1.272 1.62-1.558 1.94-.286.32-.57.361-1.013.13-.443-.227-1.875-.69-3.568-2.203-1.317-1.173-2.207-2.622-2.466-3.07-.258-.443-.028-.683.194-.903.201-.198.443-.515.666-.773.222-.258.297-.442.443-.734.145-.29.073-.55-.036-.773-.11-.223-.974-2.348-1.334-3.21-.35-.841-.692-.727-.973-.727-.248 0-.532-.01-.818-.01-.286 0-.75.107-1.14.532-.39.426-1.486 1.454-1.486 3.546s1.53 4.113 1.742 4.4c.214.288 3.012 4.602 7.296 6.447 1.02.44 1.815.702 2.433.898 1.024.327 1.956.28 2.693.17.822-.122 2.548-1.042 2.906-2.046.358-1.005.358-1.867.25-2.046-.108-.18-.396-.286-.84-.46z"/></svg>
         </a>
     </div>
-</nav>
 
+</body>
+</html>
